@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821226B31997D92100E43977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821226B21997D92100E43977 /* Foundation.framework */; };
+		821226B51997D92100E43977 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821226B41997D92100E43977 /* CoreGraphics.framework */; };
+		821226B71997D92100E43977 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821226B61997D92100E43977 /* UIKit.framework */; };
+		821226BD1997D92100E43977 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 821226BB1997D92100E43977 /* InfoPlist.strings */; };
+		821226BF1997D92100E43977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 821226BE1997D92100E43977 /* main.m */; };
+		821226C31997D92100E43977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 821226C21997D92100E43977 /* AppDelegate.m */; };
+		821226C61997D92100E43977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821226C41997D92100E43977 /* Main.storyboard */; };
+		821226C91997D92100E43977 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821226C81997D92100E43977 /* ViewController.m */; };
+		821226CB1997D92100E43977 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821226CA1997D92100E43977 /* Images.xcassets */; };
+		821226D21997D92100E43977 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821226D11997D92100E43977 /* XCTest.framework */; };
+		821226D31997D92100E43977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821226B21997D92100E43977 /* Foundation.framework */; };
+		821226D41997D92100E43977 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821226B61997D92100E43977 /* UIKit.framework */; };
+		821226DC1997D92100E43977 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 821226DA1997D92100E43977 /* InfoPlist.strings */; };
+		821226DE1997D92100E43977 /* LELightsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 821226DD1997D92100E43977 /* LELightsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		821226D51997D92100E43977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821226A71997D92100E43977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821226AE1997D92100E43977;
+			remoteInfo = LELights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821226AF1997D92100E43977 /* LELights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LELights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821226B21997D92100E43977 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		821226B41997D92100E43977 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		821226B61997D92100E43977 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		821226BA1997D92100E43977 /* LELights-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LELights-Info.plist"; sourceTree = "<group>"; };
+		821226BC1997D92100E43977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		821226BE1997D92100E43977 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		821226C01997D92100E43977 /* LELights-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LELights-Prefix.pch"; sourceTree = "<group>"; };
+		821226C11997D92100E43977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		821226C21997D92100E43977 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		821226C51997D92100E43977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		821226C71997D92100E43977 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		821226C81997D92100E43977 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		821226CA1997D92100E43977 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		821226D01997D92100E43977 /* LELightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LELightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821226D11997D92100E43977 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		821226D91997D92100E43977 /* LELightsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LELightsTests-Info.plist"; sourceTree = "<group>"; };
+		821226DB1997D92100E43977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		821226DD1997D92100E43977 /* LELightsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LELightsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821226AC1997D92100E43977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821226B51997D92100E43977 /* CoreGraphics.framework in Frameworks */,
+				821226B71997D92100E43977 /* UIKit.framework in Frameworks */,
+				821226B31997D92100E43977 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821226CD1997D92100E43977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821226D21997D92100E43977 /* XCTest.framework in Frameworks */,
+				821226D41997D92100E43977 /* UIKit.framework in Frameworks */,
+				821226D31997D92100E43977 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821226A61997D92100E43977 = {
+			isa = PBXGroup;
+			children = (
+				821226B81997D92100E43977 /* LELights */,
+				821226D71997D92100E43977 /* LELightsTests */,
+				821226B11997D92100E43977 /* Frameworks */,
+				821226B01997D92100E43977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		821226B01997D92100E43977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821226AF1997D92100E43977 /* LELights.app */,
+				821226D01997D92100E43977 /* LELightsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821226B11997D92100E43977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				821226B21997D92100E43977 /* Foundation.framework */,
+				821226B41997D92100E43977 /* CoreGraphics.framework */,
+				821226B61997D92100E43977 /* UIKit.framework */,
+				821226D11997D92100E43977 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		821226B81997D92100E43977 /* LELights */ = {
+			isa = PBXGroup;
+			children = (
+				821226C11997D92100E43977 /* AppDelegate.h */,
+				821226C21997D92100E43977 /* AppDelegate.m */,
+				821226C41997D92100E43977 /* Main.storyboard */,
+				821226C71997D92100E43977 /* ViewController.h */,
+				821226C81997D92100E43977 /* ViewController.m */,
+				821226CA1997D92100E43977 /* Images.xcassets */,
+				821226B91997D92100E43977 /* Supporting Files */,
+			);
+			path = LELights;
+			sourceTree = "<group>";
+		};
+		821226B91997D92100E43977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				821226BA1997D92100E43977 /* LELights-Info.plist */,
+				821226BB1997D92100E43977 /* InfoPlist.strings */,
+				821226BE1997D92100E43977 /* main.m */,
+				821226C01997D92100E43977 /* LELights-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		821226D71997D92100E43977 /* LELightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				821226DD1997D92100E43977 /* LELightsTests.m */,
+				821226D81997D92100E43977 /* Supporting Files */,
+			);
+			path = LELightsTests;
+			sourceTree = "<group>";
+		};
+		821226D81997D92100E43977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				821226D91997D92100E43977 /* LELightsTests-Info.plist */,
+				821226DA1997D92100E43977 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		821226AE1997D92100E43977 /* LELights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821226E11997D92100E43977 /* Build configuration list for PBXNativeTarget "LELights" */;
+			buildPhases = (
+				821226AB1997D92100E43977 /* Sources */,
+				821226AC1997D92100E43977 /* Frameworks */,
+				821226AD1997D92100E43977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LELights;
+			productName = LELights;
+			productReference = 821226AF1997D92100E43977 /* LELights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		821226CF1997D92100E43977 /* LELightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821226E41997D92100E43977 /* Build configuration list for PBXNativeTarget "LELightsTests" */;
+			buildPhases = (
+				821226CC1997D92100E43977 /* Sources */,
+				821226CD1997D92100E43977 /* Frameworks */,
+				821226CE1997D92100E43977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821226D61997D92100E43977 /* PBXTargetDependency */,
+			);
+			name = LELightsTests;
+			productName = LELightsTests;
+			productReference = 821226D01997D92100E43977 /* LELightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821226A71997D92100E43977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lauraskelton;
+				TargetAttributes = {
+					821226CF1997D92100E43977 = {
+						TestTargetID = 821226AE1997D92100E43977;
+					};
+				};
+			};
+			buildConfigurationList = 821226AA1997D92100E43977 /* Build configuration list for PBXProject "LELights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 821226A61997D92100E43977;
+			productRefGroup = 821226B01997D92100E43977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821226AE1997D92100E43977 /* LELights */,
+				821226CF1997D92100E43977 /* LELightsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821226AD1997D92100E43977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821226CB1997D92100E43977 /* Images.xcassets in Resources */,
+				821226BD1997D92100E43977 /* InfoPlist.strings in Resources */,
+				821226C61997D92100E43977 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821226CE1997D92100E43977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821226DC1997D92100E43977 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821226AB1997D92100E43977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821226C91997D92100E43977 /* ViewController.m in Sources */,
+				821226C31997D92100E43977 /* AppDelegate.m in Sources */,
+				821226BF1997D92100E43977 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821226CC1997D92100E43977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821226DE1997D92100E43977 /* LELightsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821226D61997D92100E43977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821226AE1997D92100E43977 /* LELights */;
+			targetProxy = 821226D51997D92100E43977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		821226BB1997D92100E43977 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821226BC1997D92100E43977 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		821226C41997D92100E43977 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821226C51997D92100E43977 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		821226DA1997D92100E43977 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821226DB1997D92100E43977 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		821226DF1997D92100E43977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		821226E01997D92100E43977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		821226E21997D92100E43977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LELights/LELights-Prefix.pch";
+				INFOPLIST_FILE = "LELights/LELights-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		821226E31997D92100E43977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LELights/LELights-Prefix.pch";
+				INFOPLIST_FILE = "LELights/LELights-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		821226E51997D92100E43977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LELights.app/LELights";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LELights/LELights-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LELightsTests/LELightsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		821226E61997D92100E43977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LELights.app/LELights";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LELights/LELights-Prefix.pch";
+				INFOPLIST_FILE = "LELightsTests/LELightsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		821226AA1997D92100E43977 /* Build configuration list for PBXProject "LELights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821226DF1997D92100E43977 /* Debug */,
+				821226E01997D92100E43977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821226E11997D92100E43977 /* Build configuration list for PBXNativeTarget "LELights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821226E21997D92100E43977 /* Debug */,
+				821226E31997D92100E43977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		821226E41997D92100E43977 /* Build configuration list for PBXNativeTarget "LELightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821226E51997D92100E43977 /* Debug */,
+				821226E61997D92100E43977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821226A71997D92100E43977 /* Project object */;
+}
