@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "ColorPicker.h"
+#import "LEDStripView.h"
+#import "ColorLoupe.h"
+
+@interface ViewController : UIViewController <ColorPickerDelegate>
+
+@property (nonatomic, retain) IBOutlet ColorPicker *colorPicker;
+@property (nonatomic, retain) IBOutlet ColorLoupe *colorRect;
+@property (nonatomic, retain) IBOutlet LEDStripView *ledStripView;
 
 @end

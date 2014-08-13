@@ -21,6 +21,12 @@
 		821226D41997D92100E43977 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821226B61997D92100E43977 /* UIKit.framework */; };
 		821226DC1997D92100E43977 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 821226DA1997D92100E43977 /* InfoPlist.strings */; };
 		821226DE1997D92100E43977 /* LELightsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 821226DD1997D92100E43977 /* LELightsTests.m */; };
+		821226EC1997DBBA00E43977 /* ColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 821226EB1997DBBA00E43977 /* ColorPicker.m */; };
+		821226EE1997DD2E00E43977 /* hue.png in Resources */ = {isa = PBXBuildFile; fileRef = 821226ED1997DD2E00E43977 /* hue.png */; };
+		821226F01997FC8500E43977 /* hue568.png in Resources */ = {isa = PBXBuildFile; fileRef = 821226EF1997FC8500E43977 /* hue568.png */; };
+		821226FB19980D9F00E43977 /* LEDStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = 821226FA19980D9F00E43977 /* LEDStripView.m */; };
+		821226FE19986A2000E43977 /* ColorLoupe.m in Sources */ = {isa = PBXBuildFile; fileRef = 821226FD19986A2000E43977 /* ColorLoupe.m */; };
+		82657FC3199BCCC700E92F73 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 82657FC2199BCCC700E92F73 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,15 @@
 		821226D91997D92100E43977 /* LELightsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LELightsTests-Info.plist"; sourceTree = "<group>"; };
 		821226DB1997D92100E43977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		821226DD1997D92100E43977 /* LELightsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LELightsTests.m; sourceTree = "<group>"; };
+		821226EA1997DBBA00E43977 /* ColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPicker.h; sourceTree = "<group>"; };
+		821226EB1997DBBA00E43977 /* ColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPicker.m; sourceTree = "<group>"; };
+		821226ED1997DD2E00E43977 /* hue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hue.png; sourceTree = "<group>"; };
+		821226EF1997FC8500E43977 /* hue568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hue568.png; sourceTree = "<group>"; };
+		821226F919980D9F00E43977 /* LEDStripView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDStripView.h; sourceTree = "<group>"; };
+		821226FA19980D9F00E43977 /* LEDStripView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDStripView.m; sourceTree = "<group>"; };
+		821226FC19986A2000E43977 /* ColorLoupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorLoupe.h; sourceTree = "<group>"; };
+		821226FD19986A2000E43977 /* ColorLoupe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorLoupe.m; sourceTree = "<group>"; };
+		82657FC2199BCCC700E92F73 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,7 @@
 		821226A61997D92100E43977 = {
 			isa = PBXGroup;
 			children = (
+				82657FC2199BCCC700E92F73 /* README.md */,
 				821226B81997D92100E43977 /* LELights */,
 				821226D71997D92100E43977 /* LELightsTests */,
 				821226B11997D92100E43977 /* Frameworks */,
@@ -112,12 +128,12 @@
 		821226B81997D92100E43977 /* LELights */ = {
 			isa = PBXGroup;
 			children = (
+				821226F719980D7C00E43977 /* Color Views */,
 				821226C11997D92100E43977 /* AppDelegate.h */,
 				821226C21997D92100E43977 /* AppDelegate.m */,
-				821226C41997D92100E43977 /* Main.storyboard */,
 				821226C71997D92100E43977 /* ViewController.h */,
 				821226C81997D92100E43977 /* ViewController.m */,
-				821226CA1997D92100E43977 /* Images.xcassets */,
+				821226F419980D5A00E43977 /* Resources */,
 				821226B91997D92100E43977 /* Supporting Files */,
 			);
 			path = LELights;
@@ -150,6 +166,46 @@
 				821226DA1997D92100E43977 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		821226F419980D5A00E43977 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				821226F519980D6800E43977 /* Storyboard */,
+				821226F619980D6D00E43977 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		821226F519980D6800E43977 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				821226C41997D92100E43977 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		821226F619980D6D00E43977 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				821226ED1997DD2E00E43977 /* hue.png */,
+				821226EF1997FC8500E43977 /* hue568.png */,
+				821226CA1997D92100E43977 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		821226F719980D7C00E43977 /* Color Views */ = {
+			isa = PBXGroup;
+			children = (
+				821226EA1997DBBA00E43977 /* ColorPicker.h */,
+				821226EB1997DBBA00E43977 /* ColorPicker.m */,
+				821226F919980D9F00E43977 /* LEDStripView.h */,
+				821226FA19980D9F00E43977 /* LEDStripView.m */,
+				821226FC19986A2000E43977 /* ColorLoupe.h */,
+				821226FD19986A2000E43977 /* ColorLoupe.m */,
+			);
+			name = "Color Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821226F01997FC8500E43977 /* hue568.png in Resources */,
+				821226EE1997DD2E00E43977 /* hue.png in Resources */,
 				821226CB1997D92100E43977 /* Images.xcassets in Resources */,
 				821226BD1997D92100E43977 /* InfoPlist.strings in Resources */,
 				821226C61997D92100E43977 /* Main.storyboard in Resources */,
@@ -249,7 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821226FB19980D9F00E43977 /* LEDStripView.m in Sources */,
+				821226EC1997DBBA00E43977 /* ColorPicker.m in Sources */,
 				821226C91997D92100E43977 /* ViewController.m in Sources */,
+				82657FC3199BCCC700E92F73 /* README.md in Sources */,
+				821226FE19986A2000E43977 /* ColorLoupe.m in Sources */,
 				821226C31997D92100E43977 /* AppDelegate.m in Sources */,
 				821226BF1997D92100E43977 /* main.m in Sources */,
 			);
@@ -456,6 +518,7 @@
 				821226E31997D92100E43977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		821226E41997D92100E43977 /* Build configuration list for PBXNativeTarget "LELightsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +527,7 @@
 				821226E61997D92100E43977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
